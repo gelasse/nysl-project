@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+<link rel="stylesheet"  href="styles/nyls_1.css"/>
+
+<title>Registration Form</title>
+
+</head>
+<body>
+	<section>
+		<section>
+			<nav>
+   	  	      <ul>
+   	  	        <li><a href="index.html" title="home">Home</a></li>
+   	  	        <li><a href="about.html" title="about us">About NYSL</a></li>
+   	  	        <li><a href="contact.html" title="Contact">Contact</a></li>
+   	            <li><a href="rules.html" title="rules and play">Rules</a></li>
+                <li><a href="game_info.html" title="Game Information">Game Informaiton</a></li>
+                <li><a href="registration.html" title="registration">Registration</a> </li>
+   	          </ul>		
+   	        </nav>
+		</section>
+		<section>
+		<form method="get"  action="show_data.html">
+			<p>
+				<label for="first_name">Player’s First Name:</label>
+				<input type="text" name="first_name" id="first_name"  />
+				<label for="last_name">Last Name</label>
+				<input type="text" name="last_name" id="last_name" />
+			</p>
+			<p>
+				<label for="street_address">Street Address:</label>
+				<input type="text" name="street_address" id="street_address" size="80" />
+			</p>
+			<p>
+				<label for="city">City:</label>
+				<input type="text" name="city" id="city" />
+				<label for="zip_code">Zip Code:</label>
+				<input type="text" name="zip_code" id="zip_code" />
+			</p>
+			<p>
+				<label for="birth_date">Birth Date (mm/dd/yyyy):</label>
+				<input type="text" name="birth_date" id="birth_date">
+				<label for="gender">Gender: </label>
+				<label for="male">Male</label>
+				<input type="checkbox" name="male" id="male" id="gender" />
+				<label for="female">Female</label>
+				<input type="checkbox" name="female" id="female" id="gender" />
+			</p>
+			<p>
+				<label for="grade">Grade: </label>
+				<input type="checkbox" name="pre-school" id="pre-school" />
+				<label for="pre-school">Pre-school</label>
+				<input type="checkbox" name="1_st" id="1_st" />
+				<label for="1_st">1<sup>st</sup></label>
+				<input type="checkbox" name="2_nd" id="2_nd" />
+				<label for="2_nd">2<sup>nd</sup></label>
+				<input type="checkbox" name="3_rd" id="3_rd" />
+				<label for="3_rd">3<sup>rd</sup></label>
+				<input type="checkbox" name="4_th" id="4_th" />
+				<label for="4_th">4<sup>th</sup></label>
+				<input type="checkbox" name="5_th" id="5_th" />
+				<label for="5_th">5<sup>th</sup></label>
+			</p>
+			<p>
+				<label for="parent">Parent/Guardian:</label>
+				<input type="text" name="parent" id="parent" />
+			</p>
+			<p>
+				<label for="contact_phone">Contact Phone: </label>
+				<input type="tel" name="contact_phone" id="contact_phone" />
+				<label for="contact_email">Contact Email:</label>
+				<input type="email" name="contact_email" id="contact_email" />
+			</p>
+			<p id="envoyer"><input type="submit"  value="Envoyer" /></p>
+	    </section>
+	</section>
+</body>
+</html>
